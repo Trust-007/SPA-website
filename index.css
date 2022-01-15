@@ -1,0 +1,357 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+img {
+  object-fit: cover;
+}
+.contain {
+  background-image: url(beauty-care.jpg);
+  background-size: cover;
+  height: 600px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(27, 14, 22, 0.2);
+}
+nav h2 {
+  color: white;
+  margin-left: 20px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+li {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.li-border {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 5px;
+  margin-left: 20px;
+  color: white;
+}
+.decor {
+  background-color: darkorange;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 300px;
+  margin-left: 50px;
+}
+.intro h1 {
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 70px;
+}
+.btn-special {
+  background-color: darkorange;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+}
+.details {
+  width: 90%;
+  height: 400px;
+  background-color: white;
+  border: 1px solid white;
+  text-align: center;
+  position: relative;
+  top: -50px;
+  left: 5%;
+  box-shadow: 0px 0px 40px 0px gray;
+}
+.pic-show {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+.pic-show img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid darkorange;
+}
+.pic-show h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+}
+.position {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-special2 {
+  background-color: darkorange;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.choice {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 70px;
+}
+.choice h3 {
+  margin-top: 10px;
+}
+.p-wrap {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn-special3 {
+  width: 150px;
+  border: 1px solid darkorange;
+  color: darkorange;
+  border-radius: 10px;
+  padding: 7px;
+  margin-left: 70px;
+}
+.pros {
+  height: 400px;
+  background-color: rgb(247, 233, 228);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+}
+.pro-info {
+  background-color: white;
+  width: 80%;
+  height: 300px;
+  padding-top: 50px;
+  padding-left: 20px;
+  margin-top: 30px;
+  position: relative;
+}
+.pro-info::before {
+  content: "";
+  background-color: rgb(60, 201, 60);
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: -20px;
+  left: -20px;
+  border-radius: 10px;
+  z-index: -1;
+}
+.pro-info::after {
+  content: "";
+  border: 15px dotted darkorange;
+  border: 15px double darkorange;
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  bottom: -20px;
+  right: -20px;
+  z-index: -1;
+}
+.slide {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.slide img {
+  border-radius: 100%;
+  margin-left: 100px;
+}
+.slide p {
+  padding-top: 10px;
+}
+.description {
+  align-self: center;
+}
+.info {
+  align-self: center;
+  margin-right: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  color: white;
+}
+.meet-all {
+  background-color: rgb(60, 201, 60);
+  padding: 8px;
+}
+.angle-btn {
+  margin-right: 5px;
+}
+.perks {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.perks h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.divide {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us {
+  background-color: darkorange;
+  height: 670px;
+  width: 100%;
+  margin-top: 200px;
+}
+.big-head {
+  font-size: 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: 30px;
+  padding-top: 50px;
+}
+.space1 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 17px;
+}
+.space2 {
+  display: flex;
+  margin-left: 30px;
+  font-size: 17px;
+}
+.r-angle {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  font-size: 50px;
+  color: white;
+  position: relative;
+  bottom: 50px;
+}
+.form {
+  width: 100%;
+  height: 670px;
+  align-content: center;
+  margin-top: 200px;
+}
+form .txt_field {
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+  margin-bottom: 60px;
+  position: relative;
+}
+.txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.txt_field span::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+.txt_field label {
+  position: absolute;
+  top: 5%;
+  left: 5px;
+  color: darkorange;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -20px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
+  background-color: darkorange;
+  color: black;
+  padding: 10px;
+  margin-top: 150px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.appstore {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 350px;
+  background-color: rgb(245, 171, 107);
+  margin-top: 200px;
+}
+.text-img {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app-play {
+  display: flex;
+  justify-content: space-evenly;
+}
+.phone-app {
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+  padding: 0;
+  margin: 0;
+}
+.endnotes {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+  background-color: rgb(211, 198, 198);
+  margin-top: 300px;
+  padding-top: 20px;
+}
+.endnotes h3 {
+  padding-bottom: 20px;
+}
+.endnotes p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.endnotes span {
+  color: green;
+}
+footer {
+  background-color: rgb(211, 198, 198);
+}
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
